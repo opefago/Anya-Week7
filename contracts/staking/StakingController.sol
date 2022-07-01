@@ -58,11 +58,11 @@ contract StakingController is Ownable{
         tokensPerBlock = _tokenPerBlock;
     }
 
-    function updateRewardPerBlock(uint256 _tokensPerBlock) onlyOwner external {
+    function updateRewardPerBlock(uint256 _tokensPerBlock) onlyOwner public {
         tokensPerBlock = _tokensPerBlock;
     }
 
-    function getRewardPerBlock() onlyOwner external view returns(uint256){
+    function getRewardPerBlock() onlyOwner public view returns(uint256){
         return tokensPerBlock;
     }
 

@@ -172,6 +172,8 @@ Temporary Items
 .history
 .ionide
 
+artifacts
+cache
 # Support for Project snippet scope
 
 ### Windows ###
